@@ -1,0 +1,35 @@
+.img-style{
+    margin-bottom: 15%;
+    border-radius: 10px;
+    }
+    .text-style{
+font-weight: bolder;
+
+    }
+    .description-style{
+ color: rgb(123, 115, 135);
+    }
+    .posted-date-style{
+font-size: 14px;
+color: rgb(156, 162, 189);
+}
+.link-btn{
+text-decoration: none;
+color: black;
+font-weight: bolder;
+margin-right: 40%;
+margin-top: 10%;
+}
+.arrow-icon{
+margin-bottom: 5px;
+margin-left: 2%;
+width: 3%;
+
+}
+div a{
+    text-decoration: none;
+}
+.link-btn:hover{
+color: rgb(91, 74, 106);
+
+}

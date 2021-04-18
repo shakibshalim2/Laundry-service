@@ -1,0 +1,20 @@
+.name{
+font-size:15px;
+margin:auto;
+margin-top: 10px;
+color: rgb(177, 194, 209);
+}
+.login-btn{
+
+color: black;
+
+}
+.btn{
+background-color: rgba(174, 157, 135, 0.503);
+color: black;
+border-radius: 6px;
+}
+.login-btn:hover{
+color: black;
+
+}

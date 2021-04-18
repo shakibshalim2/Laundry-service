@@ -1,0 +1,22 @@
+.brances-name{
+    margin-top: 6%;
+    font-weight: bolder;
+}
+.image-txt-container {
+    align-items: center;
+    margin-top: 8%;
+    box-shadow: 15px 15px 20px 5px rgb(241, 241, 241);
+    border-radius: 5%;
+
+  }
+  .location{
+    font-size: 12px;
+    margin-top: 3%;
+}
+.cell{
+   margin-left: 2%;
+}
+.card-style{
+
+text-align: center;
+}

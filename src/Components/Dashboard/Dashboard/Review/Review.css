@@ -1,0 +1,38 @@
+.sidebar-style{
+        margin: 0;
+        padding: 0;
+        display: block;
+        color: black;
+        text-decoration: none;
+
+    }
+    @media screen and (max-width: 700px) {
+        .sidebar-style {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+      }
+       
+  @media screen and (max-width: 400px) {
+    .sidebar-style {
+      text-align: center;
+      float: none;
+    }
+  }
+  .form-style{
+margin-top: 30%;
+
+
+  }
+  .image-field{
+margin-left: 10%;
+
+  }
+  .form{
+color: black;
+font-weight: bold;
+  }
+ 

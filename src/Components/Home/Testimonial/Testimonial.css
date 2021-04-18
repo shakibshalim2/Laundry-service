@@ -1,0 +1,25 @@
+.testimonial-text{
+color: rgb(120, 120, 152);
+font-weight: bolder;
+
+}
+  
+.testimonials .container{
+    background-image: url(../../../media/customer.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 7%;
+}
+.testimonials .card{
+    border-color: transparent;
+    margin-bottom: 1%;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+}
+.text-color{
+color: rgb(95, 101, 115);
+
+}

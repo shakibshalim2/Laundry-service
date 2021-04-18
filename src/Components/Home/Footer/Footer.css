@@ -1,0 +1,9 @@
+.footer-area{
+background-color: rgba(154, 156, 187, 0.333);
+background-size: cover;
+padding: 1px;
+}
+
+.footer-area li{
+padding-bottom: 10px;
+}

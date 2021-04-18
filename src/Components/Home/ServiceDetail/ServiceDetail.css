@@ -1,0 +1,33 @@
+.service-style{
+background-color: rgb(245, 242, 237);
+border-radius: 10px;
+}
+.service-text-color{
+color:rgb(76, 51, 51) ;
+}
+ .quotes .box {
+    background: #f2f2f2;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    padding: 5%;
+    box-shadow: -10px 8px 50px rgba(117, 112, 112, 0.3);
+  }
+
+  .quotes .box:hover {
+    color: #35496f;
+    box-shadow: 20px 50px 200px rgba(0, 0, 0, 0.4);
+  }
+  .quotes .box.box1:hover,
+  .quotes .box.box1:hover {
+    opacity: 1;
+    background: #e2a9e5;
+  background: -moz-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+  background: -webkit-linear-gradient(-45deg, #e2a9e5 15%,#2b94e5 100%);
+  background: linear-gradient(135deg, #b1d0ee 15%,#d0d4da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
+  }
+  
+
+  
+
+  
