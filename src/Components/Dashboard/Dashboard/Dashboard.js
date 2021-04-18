@@ -4,7 +4,7 @@ const Dashboard = () => {
     return (
         <div className='row bg-color'>
 
-            <div className="col-md-2 sidebar">
+            <div className="sidebar">
                 <Sidebar></Sidebar>
             </div>
         </div>

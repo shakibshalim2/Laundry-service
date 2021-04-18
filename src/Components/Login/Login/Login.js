@@ -43,7 +43,7 @@ const Login = () => {
 
     return (
         <div className="login-page container">
-            <div className="row align-items-center" style={{ height: "100vh" }}>
+            <div className="row align-items-center" style={{ height: "60vh" }}>
                 <div className="shadow p-4">
                     <div className="from-group m-2">
                         <button className="btn btn-brand" onClick={handleGoogleSignIn}><img className="img-fluid signin-style" src={google} alt="" /> Google Sign in</button>

@@ -3,13 +3,13 @@
     border-color: transparent;
     text-transform: uppercase;
     font-weight: 600;
-   
+   margin-left: 10%;
   }
   .signin-style{
 width: 10%;
-
+margin-left: 8%;
   }
   .login-page{
-margin-left: 190%;
-
+width: 40%;
+padding: 8%;
   }

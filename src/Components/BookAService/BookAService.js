@@ -12,7 +12,7 @@ const BookAService = () => {
     const [service, setService] = useState({})
 
     useEffect(() => {
-        const url = `http://localhost:5000/service/${id}`
+        const url = `https://glacial-spire-45117.herokuapp.com/service/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
@@ -21,7 +21,7 @@ const BookAService = () => {
     const handleService = () => {
         const newService = { ...loggedInUser, ...service }
         delete newService._id
-        fetch('http://localhost:5000/addServices', {
+        fetch('https://glacial-spire-45117.herokuapp.com/addServices', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newService)
@@ -33,12 +33,12 @@ const BookAService = () => {
 
 
     return (
-        <div className='container cart-item'>
+        <div className='service-from'>
             <div className='row'>
-                <div className='col-md-6 sidebar-style'>
+                <div className='col-md-2 sidebar-style'>
                     <Sidebar></Sidebar>
                 </div>
-                <div className='col-md-6 service-page'>
+                <div className='col-md-2 service-page'>
                     <p className='name-bg'>{loggedInUser.name}</p>
                     <br />
                     <p className='name-bg'>{loggedInUser.email}</p>

@@ -16,7 +16,7 @@ const Review = () => {
     }
     const onSubmit = () => {
         const allData = { ...data }
-        const url = `http://localhost:5000/addTestimonials`
+        const url = `https://glacial-spire-45117.herokuapp.com/addTestimonials`
 
         fetch(url, {
             method: 'POST',
@@ -29,12 +29,12 @@ const Review = () => {
     };
 
     return (
-        <div className='container text-center form'>
+        <div className='text-center form service-from'>
             <div className='row'>
-                <div className='col-md-6 sidebar-style'>
+                <div className='col-md-3 sidebar-style'>
                     <Sidebar></Sidebar>
                 </div>
-                <div className='col-md-6 form-style'>
+                <div className='col-md-2 form-style'>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
                         <input onBlur={handleBlur} className='mb-2' name="name" defaultValue="Your Name" ref={({ required: true })} />

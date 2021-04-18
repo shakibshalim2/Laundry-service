@@ -7,7 +7,7 @@ import './Sidebar.css';
 const Sidebar = () => {
 
     return (
-        <div className='sidebar-page'>
+        <div>
             <div className='sidebar'>
                 <Link className='active' to='/dashboard/service'>service</Link>
                 <Link to='/dashboard/serviceList'>Your Order List</Link>
@@ -15,9 +15,7 @@ const Sidebar = () => {
                 <Link to='/dashboard/addService'>Add a Service</Link>
                 <Link to='/'>Home</Link>
             </div>
-            <div className='content'>
 
-            </div>
         </div>
     );
 };

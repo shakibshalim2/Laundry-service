@@ -12,7 +12,7 @@ const AddService = () => {
             img: img,
             price: data.price
         };
-        const url = `http://localhost:5000/addService`
+        const url = `https://glacial-spire-45117.herokuapp.com/addService`
         fetch(url, {
             method: 'POST',
             headers: {
@@ -40,12 +40,12 @@ const AddService = () => {
 
 
     return (
-        <div className='container text-center form'>
+        <div className='text-center form service-from'>
             <div className='row'>
-                <div className='col-md-6 sidebar-style'>
+                <div className='col-md-3 sidebar-style'>
                     <Sidebar></Sidebar>
                 </div>
-                <div className='col-md-6 form-style'>
+                <div className='col-md-2 form-style'>
                     <form className='form-data' onSubmit={handleSubmit(onSubmit)}>
                         <input className='mb-2' name="name" defaultValue="service name" ref={register} />
                         <br />

@@ -16,7 +16,7 @@ const Testimonial = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/testimonial')
+        fetch('https://glacial-spire-45117.herokuapp.com/testimonial')
             .then(res => res.json())
             .then(data => setTestimonial(data))
 

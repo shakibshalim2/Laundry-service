@@ -1,5 +1,6 @@
 .service-page{
-margin-top: 40%;
+margin-top: 15%;
+margin-bottom: 5%;
 }
 .name-bg{
 background-color: rgba(215, 222, 228, 0.483);
@@ -19,4 +20,8 @@ color: black;
 }
 .pay-btn:hover{
     color: black;
+}
+.service-from{
+width: 98%;
+
 }

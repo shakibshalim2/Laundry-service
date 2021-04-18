@@ -8,7 +8,7 @@ const ServiceList = () => {
     const [service, setService] = useState([])
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     useEffect(() => {
-        fetch('http://localhost:5000/orderServices?email=' + loggedInUser.email)
+        fetch('https://glacial-spire-45117.herokuapp.com/orderServices?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setService(data))
 
@@ -16,12 +16,12 @@ const ServiceList = () => {
 
 
     return (
-        <div className='container'>
+        <div className='service-from'>
             <div className='row'>
-                <div className='sidebar-style sidebar'>
+                <div className='sidebar-style'>
                     <Sidebar></Sidebar>
                 </div>
-                <div className='service-page-style'>
+                <div className='col-md-11'>
                     {
                         service.map(pd => <AllServices pd={pd}></AllServices>)
 
