@@ -1,6 +1,6 @@
 ## Laundry Service
 
-[Live site](https://laundry-service-4ba7d.web.app/), [Client Repo](https://github.com/shakibshalim2/Laundry-service)
+[Live site](https://laundry-service-4ba7d.web.app/), , [Server Repo](https://github.com/shakibshalim2/laundry-service-server)
 In the website user can
 
 1. order any service and need to login before get the service.
